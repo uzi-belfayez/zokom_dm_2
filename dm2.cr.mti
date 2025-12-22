@@ -1,0 +1,113 @@
+{E:/ISN 3A/RISCV/dm_2/RISCV_RISB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/ISN 3A/RISCV/dm_2/RISCV_RISB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package constants
+-- Compiling entity RISCV_RISB
+-- Compiling architecture behav of RISCV_RISB
+
+} {} {}} {E:/ISN 3A/RISCV/dm_2/compteur.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/ISN 3A/RISCV/dm_2/compteur.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity compteur
+-- Compiling architecture behavior of compteur
+
+} {} {}} {E:/ISN 3A/RISCV/dm_2/sm.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:\ISN 3A\RISCV\dm_2\sm.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sm
+-- Compiling architecture behav of sm
+
+} {} {}} {E:/ISN 3A/RISCV/dm_2/imem.vhd} {2 {vcom -work work -2002 -explicit -stats=none {E:/ISN 3A/RISCV/dm_2/imem.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity imem
+-- Compiling architecture behav of imem
+** Warning: E:/ISN 3A/RISCV/dm_2/imem.vhd(55): (vcom-1283) Cannot reference file "filePtr" inside pure function "memInit".
+** Warning: E:/ISN 3A/RISCV/dm_2/imem.vhd(56): (vcom-1283) Cannot reference file "filePtr" inside pure function "memInit".
+** Warning: E:/ISN 3A/RISCV/dm_2/imem.vhd(58): (vcom-1283) Cannot reference file "filePtr" inside pure function "memInit".
+** Warning: E:/ISN 3A/RISCV/dm_2/imem.vhd(64): (vcom-1283) Cannot reference file "filePtr" inside pure function "memInit".
+
+} {} {}} {E:/ISN 3A/RISCV/dm_2/lm.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/ISN 3A/RISCV/dm_2/lm.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity lm
+-- Compiling architecture behav of lm
+
+} {} {}} {E:/ISN 3A/RISCV/dm_2/RISCV_RISB_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/ISN 3A/RISCV/dm_2/RISCV_RISB_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity RISCV_RISB_tb
+-- Compiling architecture behav of RISCV_RISB_tb
+
+} {} {}} {E:/ISN 3A/RISCV/dm_2/dmem.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/ISN 3A/RISCV/dm_2/dmem.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dmem
+-- Compiling architecture rtl of dmem
+
+} {} {}} {E:/ISN 3A/RISCV/dm_2/mux2to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/ISN 3A/RISCV/dm_2/mux2to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2to1
+-- Compiling architecture rtl of mux2to1
+
+} {} {}} {E:/ISN 3A/RISCV/dm_2/alu.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/ISN 3A/RISCV/dm_2/alu.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu
+-- Compiling architecture behav of alu
+
+} {} {}} {E:/ISN 3A/RISCV/dm_2/regbank.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/ISN 3A/RISCV/dm_2/regbank.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity regbank
+-- Compiling architecture behav of regbank
+
+} {} {}} {E:/ISN 3A/RISCV/dm_2/imm_ext.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:\ISN 3A\RISCV\dm_2\imm_ext.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package constants
+-- Compiling entity imm_ext_risb
+-- Compiling architecture behav of imm_ext_risb
+
+} {} {}} {E:/ISN 3A/RISCV/dm_2/constants.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:\ISN 3A\RISCV\dm_2\constants.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package constants
+
+} {} {}}

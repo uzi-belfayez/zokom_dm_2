@@ -1,0 +1,554 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/rayen/AppData/Local/quartus
+Ealu
+Z0 w1766399340
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 22
+Z4 dE:/ISN 3A/RISCV/dm_2
+Z5 8E:/ISN 3A/RISCV/dm_2/alu.vhd
+Z6 FE:/ISN 3A/RISCV/dm_2/alu.vhd
+l0
+L5 1
+VB8b@Qo97mDLVC]FW]T5kC3
+!s100 CaKlFFR^7zHTeX0gCdlGD1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1766403774
+!i10b 1
+Z9 !s108 1766403774.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ISN 3A/RISCV/dm_2/alu.vhd|
+Z11 !s107 E:/ISN 3A/RISCV/dm_2/alu.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehav
+R1
+R2
+R3
+DEx4 work 3 alu 0 22 B8b@Qo97mDLVC]FW]T5kC3
+!i122 22
+l22
+L18 55
+VP::N9]=<PY@>UoQJEhJO_1
+!s100 KR6o5AjPjU5>Og@RDV8fN3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecompteur
+Z14 w1766399295
+R1
+R2
+R3
+!i122 23
+R4
+Z15 8E:/ISN 3A/RISCV/dm_2/compteur.vhd
+Z16 FE:/ISN 3A/RISCV/dm_2/compteur.vhd
+l0
+L5 1
+V7Y6]DRHI8]WM;FM7I_oiz0
+!s100 GHVMEXIO`P7<=SGEPMok91
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ISN 3A/RISCV/dm_2/compteur.vhd|
+Z18 !s107 E:/ISN 3A/RISCV/dm_2/compteur.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 8 compteur 0 22 7Y6]DRHI8]WM;FM7I_oiz0
+!i122 23
+l15
+L15 15
+VUPm`0IQVF4BhYF9HjhnO21
+!s100 15hNCDenIoL;ngXLfQITM3
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Pconstants
+R1
+R2
+R3
+!i122 21
+w1766402202
+R4
+8E:\ISN 3A\RISCV\dm_2\constants.vhd
+FE:\ISN 3A\RISCV\dm_2\constants.vhd
+l0
+L5 1
+V;KkBXVlVRHo<7oac]dc4k1
+!s100 >b>VK;MUR^6a^0YIRiWnL1
+R7
+32
+!s110 1766403761
+!i10b 1
+!s108 1766403761.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\ISN 3A\RISCV\dm_2\constants.vhd|
+!s107 E:\ISN 3A\RISCV\dm_2\constants.vhd|
+!i113 1
+R12
+R13
+Edmem
+Z19 w1766401719
+R1
+R2
+R3
+!i122 24
+R4
+Z20 8E:/ISN 3A/RISCV/dm_2/dmem.vhd
+Z21 FE:/ISN 3A/RISCV/dm_2/dmem.vhd
+l0
+L8 1
+VHDA3VaJBf8LQ<WO^KcXWL0
+!s100 PBO@G0?:NLQjASGnAo]RF1
+R7
+32
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ISN 3A/RISCV/dm_2/dmem.vhd|
+Z23 !s107 E:/ISN 3A/RISCV/dm_2/dmem.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 4 dmem 0 22 HDA3VaJBf8LQ<WO^KcXWL0
+!i122 24
+l63
+L28 62
+VME1E]LdQ>I20I77<8LD];1
+!s100 =VVzTh]I_SUgihcRlHl]J1
+R7
+32
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Eimem
+Z24 w1766399264
+R1
+R2
+R3
+!i122 25
+R4
+Z25 8E:/ISN 3A/RISCV/dm_2/imem.vhd
+Z26 FE:/ISN 3A/RISCV/dm_2/imem.vhd
+l0
+L6 1
+Vk>DV5@mDN=dQ58QRC]PNO1
+!s100 ;LZ_9BD7>Mi[DUa1cQgX=2
+R7
+32
+Z27 !s110 1766403775
+!i10b 1
+R9
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ISN 3A/RISCV/dm_2/imem.vhd|
+Z29 !s107 E:/ISN 3A/RISCV/dm_2/imem.vhd|
+!i113 1
+R12
+R13
+Abehav
+R1
+R2
+R3
+DEx4 work 4 imem 0 22 k>DV5@mDN=dQ58QRC]PNO1
+!i122 25
+l68
+L21 61
+VS4iW[PM_NfL2>1kn35@9k0
+!s100 IU2QYz991_WN4^d7o`K6Z0
+R7
+32
+R27
+!i10b 1
+R9
+R28
+R29
+!i113 1
+R12
+R13
+Eimm_ext_risb
+Z30 w1766402858
+Z31 DPx4 work 9 constants 0 22 ;KkBXVlVRHo<7oac]dc4k1
+R1
+R2
+R3
+!i122 26
+R4
+Z32 8E:\ISN 3A\RISCV\dm_2\imm_ext.vhd
+Z33 FE:\ISN 3A\RISCV\dm_2\imm_ext.vhd
+l0
+L7 1
+V;:RISkP7FEz9@4I1MR=iI0
+!s100 P0YZlkYMeO9CD4n[[oc8<3
+R7
+32
+R27
+!i10b 1
+Z34 !s108 1766403775.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\ISN 3A\RISCV\dm_2\imm_ext.vhd|
+Z36 !s107 E:\ISN 3A\RISCV\dm_2\imm_ext.vhd|
+!i113 1
+R12
+R13
+Abehav
+R31
+R1
+R2
+R3
+DEx4 work 12 imm_ext_risb 0 22 ;:RISkP7FEz9@4I1MR=iI0
+!i122 26
+l27
+L16 43
+V7l6BQhSGa0Qlkl1?A]fNk0
+!s100 a4?:]b2Gi;XX4m5G8SNZd2
+R7
+32
+R27
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R12
+R13
+Eir_dec_risb
+Z37 w1766403915
+R31
+R1
+R2
+R3
+!i122 34
+R4
+Z38 8E:\ISN 3A\RISCV\dm_2\ir_dec_risb.vhd
+Z39 FE:\ISN 3A\RISCV\dm_2\ir_dec_risb.vhd
+l0
+L7 1
+V=7D85a4FGK2bIjalC4J`J0
+!s100 =^]IjkG=Wa16G16oVoaIL2
+R7
+32
+Z40 !s110 1766403933
+!i10b 1
+Z41 !s108 1766403933.000000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\ISN 3A\RISCV\dm_2\ir_dec_risb.vhd|
+Z43 !s107 E:\ISN 3A\RISCV\dm_2\ir_dec_risb.vhd|
+!i113 1
+R12
+R13
+Abehav
+R31
+R1
+R2
+R3
+DEx4 work 11 ir_dec_risb 0 22 =7D85a4FGK2bIjalC4J`J0
+!i122 34
+l32
+L28 51
+VJigd?gV=DE9@[eb^VXel]3
+!s100 61`W4;aKBHZjR6Ya:l`W03
+R7
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 1
+R12
+R13
+Elm
+Z44 w1766402015
+R1
+R2
+R3
+!i122 28
+R4
+Z45 8E:/ISN 3A/RISCV/dm_2/lm.vhd
+Z46 FE:/ISN 3A/RISCV/dm_2/lm.vhd
+l0
+L5 1
+V@2;TQzF]e=dnW0FmNBi5I2
+!s100 L0XIa?nSgaYmR3@jCYAk_3
+R7
+32
+R27
+!i10b 1
+R34
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ISN 3A/RISCV/dm_2/lm.vhd|
+Z48 !s107 E:/ISN 3A/RISCV/dm_2/lm.vhd|
+!i113 1
+R12
+R13
+Abehav
+R1
+R2
+R3
+DEx4 work 2 lm 0 22 @2;TQzF]e=dnW0FmNBi5I2
+!i122 28
+l40
+L17 60
+VkGlEjnU@eEz426GXo@H3[1
+!s100 maaVX5a=JzA9Qn=Mk`OD<3
+R7
+32
+R27
+!i10b 1
+R34
+R47
+R48
+!i113 1
+R12
+R13
+Emux2to1
+Z49 w1766401071
+R2
+R3
+!i122 29
+R4
+Z50 8E:/ISN 3A/RISCV/dm_2/mux2to1.vhd
+Z51 FE:/ISN 3A/RISCV/dm_2/mux2to1.vhd
+l0
+L4 1
+VGGB0VLk]:P>Kei?5f0DJL0
+!s100 `A1]Kh2aDeQBz`MJHeoc@1
+R7
+32
+R27
+!i10b 1
+R34
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ISN 3A/RISCV/dm_2/mux2to1.vhd|
+Z53 !s107 E:/ISN 3A/RISCV/dm_2/mux2to1.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+DEx4 work 7 mux2to1 0 22 GGB0VLk]:P>Kei?5f0DJL0
+!i122 29
+l17
+L16 6
+VlXU`kd7Ng;ZK2AN1ih];e1
+!s100 f>_PZM`4NnfeF`fC4GG;h1
+R7
+32
+R27
+!i10b 1
+R34
+R52
+R53
+!i113 1
+R12
+R13
+Eregbank
+Z54 w1766399382
+R1
+R2
+R3
+!i122 30
+R4
+Z55 8E:/ISN 3A/RISCV/dm_2/regbank.vhd
+Z56 FE:/ISN 3A/RISCV/dm_2/regbank.vhd
+l0
+L5 1
+V;fm=aY9@B:DD00`TGk`RL0
+!s100 0:eYKN`>L;M14XMmHLDGh0
+R7
+32
+Z57 !s110 1766403776
+!i10b 1
+R34
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ISN 3A/RISCV/dm_2/regbank.vhd|
+Z59 !s107 E:/ISN 3A/RISCV/dm_2/regbank.vhd|
+!i113 1
+R12
+R13
+Abehav
+R1
+R2
+R3
+DEx4 work 7 regbank 0 22 ;fm=aY9@B:DD00`TGk`RL0
+!i122 30
+l27
+L22 29
+VZX`8>7C=WkC4TR]b[@KV:1
+!s100 TE]=IL?zM9DB5;UFTDX[E1
+R7
+32
+R57
+!i10b 1
+R34
+R58
+R59
+!i113 1
+R12
+R13
+Eriscv_risb
+Z60 w1766403532
+R31
+R1
+R2
+R3
+!i122 32
+R4
+Z61 8E:/ISN 3A/RISCV/dm_2/RISCV_RISB.vhd
+Z62 FE:/ISN 3A/RISCV/dm_2/RISCV_RISB.vhd
+l0
+L7 1
+Vf7VCFaK@9R:_[3AIRcEjd2
+!s100 33lb2GQ^jXAULS[5GWILz1
+R7
+32
+Z63 !s110 1766403779
+!i10b 1
+Z64 !s108 1766403779.000000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ISN 3A/RISCV/dm_2/RISCV_RISB.vhd|
+Z66 !s107 E:/ISN 3A/RISCV/dm_2/RISCV_RISB.vhd|
+!i113 1
+R12
+R13
+Abehav
+R31
+R1
+R2
+R3
+DEx4 work 10 riscv_risb 0 22 f7VCFaK@9R:_[3AIRcEjd2
+!i122 32
+l47
+L17 78
+V6`R=LL6z^k[jmGH?QbY4R1
+!s100 a=PI`>11Ik96iYE1kWGAJ2
+R7
+32
+R63
+!i10b 1
+R64
+R65
+R66
+!i113 1
+R12
+R13
+Eriscv_risb_tb
+Z67 w1766403551
+R1
+R2
+R3
+!i122 33
+R4
+Z68 8E:/ISN 3A/RISCV/dm_2/RISCV_RISB_tb.vhd
+Z69 FE:/ISN 3A/RISCV/dm_2/RISCV_RISB_tb.vhd
+l0
+L5 1
+VZS5;N?;AliG688m<mSa5Z3
+!s100 gF?1372NidUSRj0lo2Oen1
+R7
+32
+Z70 !s110 1766403782
+!i10b 1
+Z71 !s108 1766403782.000000
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ISN 3A/RISCV/dm_2/RISCV_RISB_tb.vhd|
+Z73 !s107 E:/ISN 3A/RISCV/dm_2/RISCV_RISB_tb.vhd|
+!i113 1
+R12
+R13
+Abehav
+R1
+R2
+R3
+DEx4 work 13 riscv_risb_tb 0 22 ZS5;N?;AliG688m<mSa5Z3
+!i122 33
+l34
+L8 50
+V=@I^d1HQ:5hfHH9jel=^m2
+!s100 :jZ9OVRk:jXf3O2BK=kdZ0
+R7
+32
+R70
+!i10b 1
+R71
+R72
+R73
+!i113 1
+R12
+R13
+Esm
+Z74 w1766402833
+R1
+R2
+R3
+!i122 31
+R4
+Z75 8E:\ISN 3A\RISCV\dm_2\sm.vhd
+Z76 FE:\ISN 3A\RISCV\dm_2\sm.vhd
+l0
+L5 1
+VKINI;iE9Damz0KE71o9R@1
+!s100 PX6Ge;A[o]IaGa;c^:Mdb3
+R7
+32
+R57
+!i10b 1
+Z77 !s108 1766403776.000000
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\ISN 3A\RISCV\dm_2\sm.vhd|
+Z79 !s107 E:\ISN 3A\RISCV\dm_2\sm.vhd|
+!i113 1
+R12
+R13
+Abehav
+R1
+R2
+R3
+DEx4 work 2 sm 0 22 KINI;iE9Damz0KE71o9R@1
+!i122 31
+l35
+L18 54
+VhoS;M:eKQEm;ROYZIoG0A1
+!s100 i=bCWzGV>>>c>WS[D]fQN2
+R7
+32
+R57
+!i10b 1
+R77
+R78
+R79
+!i113 1
+R12
+R13

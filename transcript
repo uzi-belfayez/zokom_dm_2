@@ -1,0 +1,355 @@
+# Compile of alu.vhd was successful.
+# Compile of compteur.vhd was successful.
+# Compile of constants.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of imem.vhd was successful with warnings.
+# Compile of imm_ext.vhd was successful.
+# Compile of ir_dec_risb.vhd was successful.
+# Compile of lm.vhd was successful.
+# Compile of mux2to1.vhd was successful.
+# Compile of regbank.vhd was successful.
+# Compile of RISCV_RISB.vhd was successful.
+# Compile of RISCV_RISB_tb.vhd was successful.
+# Compile of sm.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+# Compile of RISCV_RISB.vhd was successful.
+vsim -gui work.riscv_risb_tb
+# vsim -gui work.riscv_risb_tb 
+# Start time: 12:33:22 on Dec 22,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_risb_tb(behav)
+# Loading work.constants
+# Loading work.riscv_risb(behav)
+# Loading work.compteur(behavior)
+# Loading work.imem(behav)
+# ** Warning: (vsim-7) Failed to open VHDL file "test_prog.hex" in rb mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/imem_1 File: E:/ISN 3A/RISCV/dm_2/imem.vhd
+# ** Fatal: (vsim-7) Failed to open VHDL file "test_prog.hex" in rb mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/imem_1 File: E:/ISN 3A/RISCV/dm_2/imem.vhd Line: 56
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 12:33:23 on Dec 22,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 7
+# Compile of RISCV_RISB_tb.vhd was successful.
+vsim -gui work.riscv_risb_tb
+# vsim -gui work.riscv_risb_tb 
+# Start time: 12:34:13 on Dec 22,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_risb_tb(behav)
+# Loading work.constants
+# Loading work.riscv_risb(behav)
+# Loading work.compteur(behavior)
+# Loading work.imem(behav)
+# ** Warning: (vsim-7) Failed to open VHDL file "store_01.hex" in rb mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/imem_1 File: E:/ISN 3A/RISCV/dm_2/imem.vhd
+# ** Fatal: (vsim-7) Failed to open VHDL file "store_01.hex" in rb mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/imem_1 File: E:/ISN 3A/RISCV/dm_2/imem.vhd Line: 56
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 12:34:14 on Dec 22,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+# Compile of RISCV_RISB.vhd was successful.
+# Compile of RISCV_RISB_tb.vhd was successful.
+vsim -gui work.riscv_risb_tb
+# vsim -gui work.riscv_risb_tb 
+# Start time: 12:35:00 on Dec 22,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_risb_tb(behav)
+# Loading work.constants
+# Loading work.riscv_risb(behav)
+# Loading work.compteur(behavior)
+# Loading work.imem(behav)
+# Loading work.ir_dec_risb(behav)
+# Loading work.imm_ext_risb(behav)
+# Loading work.regbank(behav)
+# Loading work.mux2to1(rtl)
+# Loading work.alu(behav)
+# Loading work.dmem(rtl)
+# Loading work.sm(behav)
+# Loading work.lm(behav)
+# WARNING: No extended dataflow license exists
+add wave sim:/riscv_risb_tb/*
+add wave -r /*
+run -all
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/rb_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/rb_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/imem_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 5 (4 downto 0). Right is 4 (0 to 3).
+#    Time: 0 ps  Iteration: 1  Process: /riscv_risb_tb/dut/ir_dec_1/line__35 File: E:/ISN 3A/RISCV/dm_2/ir_dec_risb.vhd
+# Fatal error in Process line__35 at E:/ISN 3A/RISCV/dm_2/ir_dec_risb.vhd line 53
+# 
+# HDL call sequence:
+# Stopped at E:/ISN 3A/RISCV/dm_2/ir_dec_risb.vhd 53 Process line__35
+# 
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at E:/ISN 3A/RISCV/dm_2/ir_dec_risb.vhd 53 Process line__35
+# 
+quit -sim
+# End time: 12:36:18 on Dec 22,2025, Elapsed time: 0:01:18
+# Errors: 1, Warnings: 10
+vsim -gui work.riscv_risb_tb
+# vsim -gui work.riscv_risb_tb 
+# Start time: 12:36:43 on Dec 22,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_risb_tb(behav)
+# Loading work.constants
+# Loading work.riscv_risb(behav)
+# Loading work.compteur(behavior)
+# Loading work.imem(behav)
+# Loading work.ir_dec_risb(behav)
+# Loading work.imm_ext_risb(behav)
+# Loading work.regbank(behav)
+# Loading work.mux2to1(rtl)
+# Loading work.alu(behav)
+# Loading work.dmem(rtl)
+# Loading work.sm(behav)
+# Loading work.lm(behav)
+# WARNING: No extended dataflow license exists
+add wave -r /*
+run -all
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/rb_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/rb_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/imem_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 5 (4 downto 0). Right is 4 (0 to 3).
+#    Time: 0 ps  Iteration: 1  Process: /riscv_risb_tb/dut/ir_dec_1/line__35 File: E:/ISN 3A/RISCV/dm_2/ir_dec_risb.vhd
+# Fatal error in Process line__35 at E:/ISN 3A/RISCV/dm_2/ir_dec_risb.vhd line 53
+# 
+# HDL call sequence:
+# Stopped at E:/ISN 3A/RISCV/dm_2/ir_dec_risb.vhd 53 Process line__35
+# 
+# Break key hit
+quit -sim
+# End time: 12:37:41 on Dec 22,2025, Elapsed time: 0:00:58
+# Errors: 1, Warnings: 8
+# Compile of RISCV_RISB.vhd was successful.
+# Compile of RISCV_RISB_tb.vhd was successful.
+vsim -gui work.riscv_risb_tb
+# vsim -gui work.riscv_risb_tb 
+# Start time: 12:38:15 on Dec 22,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_risb_tb(behav)
+# Loading work.constants
+# Loading work.riscv_risb(behav)
+# Loading work.compteur(behavior)
+# Loading work.imem(behav)
+# ** Warning: (vsim-7) Failed to open VHDL file "store_01.hex" in rb mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/imem_1 File: E:/ISN 3A/RISCV/dm_2/imem.vhd
+# ** Fatal: (vsim-7) Failed to open VHDL file "store_01.hex" in rb mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/imem_1 File: E:/ISN 3A/RISCV/dm_2/imem.vhd Line: 56
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 12:38:16 on Dec 22,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 4
+# Compile of RISCV_RISB.vhd was successful.
+# Compile of RISCV_RISB_tb.vhd was successful.
+vsim -gui work.riscv_risb_tb
+# vsim -gui work.riscv_risb_tb 
+# Start time: 12:39:28 on Dec 22,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_risb_tb(behav)
+# Loading work.constants
+# Loading work.riscv_risb(behav)
+# Loading work.compteur(behavior)
+# Loading work.imem(behav)
+# Loading work.ir_dec_risb(behav)
+# Loading work.imm_ext_risb(behav)
+# Loading work.regbank(behav)
+# Loading work.mux2to1(rtl)
+# Loading work.alu(behav)
+# Loading work.dmem(rtl)
+# Loading work.sm(behav)
+# Loading work.lm(behav)
+# WARNING: No extended dataflow license exists
+add wave -r /*
+# Load canceled
+run -all
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/rb_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/rb_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/imem_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 5 (4 downto 0). Right is 4 (0 to 3).
+#    Time: 0 ps  Iteration: 1  Process: /riscv_risb_tb/dut/ir_dec_1/line__35 File: E:/ISN 3A/RISCV/dm_2/ir_dec_risb.vhd
+# Fatal error in Process line__35 at E:/ISN 3A/RISCV/dm_2/ir_dec_risb.vhd line 53
+# 
+# HDL call sequence:
+# Stopped at E:/ISN 3A/RISCV/dm_2/ir_dec_risb.vhd 53 Process line__35
+# 
+quit -sim
+# End time: 12:40:48 on Dec 22,2025, Elapsed time: 0:01:20
+# Errors: 1, Warnings: 10
+# Load canceled
+# Compile of constants.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of compteur.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of imem.vhd was successful with warnings.
+# Compile of imm_ext.vhd was successful.
+# Compile of ir_dec_risb.vhd was successful.
+# Compile of lm.vhd was successful.
+# Compile of mux2to1.vhd was successful.
+# Compile of regbank.vhd was successful.
+# Compile of sm.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+# Compile of RISCV_RISB.vhd was successful.
+# Compile of RISCV_RISB_tb.vhd was successful.
+vsim -voptargs=+acc work.RISCV_RISB_tb
+# vsim -voptargs="+acc" work.RISCV_RISB_tb 
+# Start time: 12:43:13 on Dec 22,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_risb_tb(behav)
+# Loading work.constants
+# Loading work.riscv_risb(behav)
+# Loading work.compteur(behavior)
+# Loading work.imem(behav)
+# Loading work.ir_dec_risb(behav)
+# Loading work.imm_ext_risb(behav)
+# Loading work.regbank(behav)
+# Loading work.mux2to1(rtl)
+# Loading work.alu(behav)
+# Loading work.dmem(rtl)
+# Loading work.sm(behav)
+# Loading work.lm(behav)
+# WARNING: No extended dataflow license exists
+add wave -r /*
+run -all
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/rb_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/rb_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/imem_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 5 (4 downto 0). Right is 4 (0 to 3).
+#    Time: 0 ps  Iteration: 1  Process: /riscv_risb_tb/dut/ir_dec_1/line__35 File: E:/ISN 3A/RISCV/dm_2/ir_dec_risb.vhd
+# Fatal error in Process line__35 at E:/ISN 3A/RISCV/dm_2/ir_dec_risb.vhd line 53
+# 
+# HDL call sequence:
+# Stopped at E:/ISN 3A/RISCV/dm_2/ir_dec_risb.vhd 53 Process line__35
+# 
+quit -sim
+# End time: 12:45:30 on Dec 22,2025, Elapsed time: 0:02:17
+# Errors: 1, Warnings: 12
+# Compile of ir_dec_risb.vhd was successful.
+vsim -voptargs=+acc work.riscv_risb_tb
+# vsim -voptargs="+acc" work.riscv_risb_tb 
+# Start time: 12:45:42 on Dec 22,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_risb_tb(behav)
+# Loading work.constants
+# Loading work.riscv_risb(behav)
+# Loading work.compteur(behavior)
+# Loading work.imem(behav)
+# Loading work.ir_dec_risb(behav)
+# Loading work.imm_ext_risb(behav)
+# Loading work.regbank(behav)
+# Loading work.mux2to1(rtl)
+# Loading work.alu(behav)
+# Loading work.dmem(rtl)
+# Loading work.sm(behav)
+# Loading work.lm(behav)
+# WARNING: No extended dataflow license exists
+add wave -r /*
+run -all
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/rb_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/rb_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut/imem_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_risb_tb/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /riscv_risb_tb/dut/imem_1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 5  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 5  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 5  Instance: /riscv_risb_tb/dut/dmem_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 345 ns  Iteration: 3  Instance: /riscv_risb_tb/dut/rb_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 345 ns  Iteration: 3  Instance: /riscv_risb_tb/dut/rb_1

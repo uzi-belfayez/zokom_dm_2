@@ -165,15 +165,17 @@ begin
 case current_state is
         when FETCH =>
             ri_enable <= '1'; 
-            -- pc_enable <= '1';  <-- SUPPRIMER CETTE LIGNE ICI
+            pc_enable <= '0';  
             -- On garde le PC stable pour que l'ALU utilise la bonne adresse plus tard
 
         when DECODE =>
             null;
 
+-- ir_dec_risb.vhd
+
         when EXECUTE =>
-            -- Si c'est un saut, on charge la nouvelle adresse ici
-            pc_load <= pc_load_raw;
+            -- Retirez ou mettez à 0 l'assignation de pc_load ici
+            pc_load <= '0'; 
 
         when MEMORY =>
             wrMem <= wrMem_raw;
@@ -181,14 +183,15 @@ case current_state is
         when WRITEBACK =>
             rdWrite <= rdWrite_raw;
             
-            -- C'EST ICI QU'ON INCRÉMENTE LE PC
-            -- On passe à l'instruction suivante (PC+4) SEULEMENT SI :
-            -- Ce n'est pas un saut (JAL/JALR) OU c'est un saut conditionnel raté (Branch false)
-            if pc_load_raw = '0' then 
-                pc_enable <= '1';
+            -- GESTION DU PC UNIFIÉE ICI :
+            if pc_load_raw = '1' then
+                -- C'est un saut : on charge l'adresse cible maintenant
+                pc_load <= '1'; 
+                pc_enable <= '0'; -- On ne fait pas +4 car on saute
             else
-                -- Si on a sauté (pc_load_raw='1'), le PC a déjà été mis à jour en EXECUTE
-                pc_enable <= '0';
+                -- Ce n'est pas un saut : on passe à l'instruction suivante
+                pc_load <= '0';
+                pc_enable <= '1'; -- PC = PC + 4
             end if;
             
     end case;

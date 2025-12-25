@@ -178,7 +178,8 @@ begin
         port map (opA=>src1Mux, opB=>src2Mux, aluOp=>aluOp, res=>result);
 
     -- [Memory Access]
-    addr_dmem  <= result(addrWidth-1 downto 2) & "00";
+    --addr_dmem  <= result(addrWidth-1 downto 2) & "00";
+    addr_dmem <= "00" & result(addrWidth-1 downto 2);
     align_bits <= result(1 downto 0);
     
     dmem_1 : dmem generic map (DATA_WIDTH=>dataWidth, ADDR_WIDTH=>addrWidth, MEM_DEPTH=>memDepth) 

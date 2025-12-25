@@ -74,7 +74,7 @@ architecture behavior of imem is
 begin
     process(clk)
     begin
-        if rising_edge(clk) then
+        if falling_edge(clk) then
             if to_integer(unsigned(address)) < MEM_DEPTH then
                 Data_Out <= ram(to_integer(unsigned(address)));
             else

@@ -45,7 +45,10 @@ begin
                 immValue(20)           <= instr(31);
                 -- Extension de signe
                 if instr(31) = '1' then immValue(31 downto 21) <= (others => '1'); end if;
-
+            when U_TYPE =>
+                immValue(31 downto 12) <= unsigned(instr(31 downto 12));
+                immValue(11 downto 0)  <= (others => '0');
+                
             when others => immValue <= (others => '0');
         end case;
     end process;

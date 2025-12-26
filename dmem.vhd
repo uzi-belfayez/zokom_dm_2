@@ -36,7 +36,7 @@ architecture rtl of dmem is
 	begin 
 		-- Initialisation de la ROM avec le programme
 		-- Quartus générera un fichier mif associé
-		tmp(0):= x"000011FA";	-- on veut 109A dans les 16 bits de poids fort à la fin du calcul
+		tmp(0):= x"000011FA";
 		tmp(1):= x"00000008";	 
 		tmp(2):= x"A0000002";	
 		tmp(3):= x"00000007";	 
@@ -49,11 +49,9 @@ architecture rtl of dmem is
 	end init_ram;	 
 
 
-	-- Declare the RAM signal.	
 	signal ram : memory_t:=init_ram;
 
-	-- Register to hold the address 
-	--signal addr_reg : natural range 0 to 2**ADDR_WIDTH-1;
+
     signal addr_int : integer range 0 to MEM_DEPTH - 1;
     signal sig1 : std_logic;
     signal sig2 : std_logic;
@@ -63,27 +61,21 @@ architecture rtl of dmem is
 begin
     addr_uns <= unsigned(addr);
 
-    --addr_int <= to_integer(unsigned(addr)) when (to_integer(unsigned(addr)) < MEM_DEPTH) and (to_integer(unsigned(addr)) > 0) else 0;
     addr_int <= to_integer(addr_uns) when (addr_uns < MEM_DEPTH) and (addr_uns > 0) else 0;
     sig1 <= '1' when addr_uns < MEM_DEPTH else '0';
     sig2 <= '1' when addr_uns > 0 else '0';
 
-	--process(all)
-	--process(addr,data)
 	process(clk)
 	begin
         if rising_edge(clk) then
             if(write = '1') then
-                --if to_integer(unsigned(addr)) < MEM_DEPTH then
-                    --ram(to_integer(unsigned(addr))) <= data;
+
                     ram(addr_int) <= data;
-                --end if;
+  
             end if; 
         end if;
-		--addr_reg <= to_integer(unsigned(addr));
 end process;
 
---q <= ram(to_integer(unsigned(addr))) when to_integer(unsigned(addr)) < MEM_DEPTH else (others => '0');
 q <= ram(addr_int);
 
 end rtl;
